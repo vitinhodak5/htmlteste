@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+
+
+
+/* cabecalho */
+#cabecalho{
+    background-color: #f7b600;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 2.5em;
+}
+
+
+
+
+
+/* menu */
+#menu{
+    padding-bottom: 10px;
+}
+#menu a{
+    color: white;
+    padding: 10px;
+}
+#menu a:link, #menu a:visited{
+    color: #FFF;
+}
+#menu a:hover{
+    color: #f7b600;
+    background-color: white;
+    padding: 10px;
+}
+
+#branco{
+    color: white;
+}
+#preto{
+    color: black;
+}
+
+
+
+
+
+/* cabecalho */
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+#principal{
+    width: 900px;
+    margin: 10px;
+}
+.conteudo{
+    margin-left: 240px;
+    padding: 10px;
+    padding-top: 20px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.titulo-da-postagem{
+    color: #f7b600;
+}
+.paragrafo{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+}
+
+
+
+#seccao{
+    width: 426px;
+    margin: 10px;
+}
+#postagens{
+    background-color: white;
+    margin-right: 150px;
+    height: 200px;
+    
+}
+.postagens-conteudo{
+    margin: 10px;   
+}
+#s{
+    background-color: black;
+    color: white;
+}
+.pontos{
+    margin: 10px;   
+    color: red;
+}
+
+
+
+
+
+
+
+#Categorias{
+    background-color: white;
+    margin-right: 150px;
+}
+#Categorias a{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: red;
+    margin-left: 10px;
+}
+#p{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+footer{
+    margin-left: 240px;
+    margin-right: 150px;
+    color: black;
+    background-color: #CCC;
+    text-align: center;
+    padding: 20px;
+}
